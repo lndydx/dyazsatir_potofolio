@@ -60,10 +60,10 @@ export const projects: Project[] = [
     ],
   },
   {
-    name: "Math Visualization",
-    madeWith: "Python - Manim",
-    description: "Mathematical visualizations made with Manim animation engine. From calculus to linear algebra.",
-    image: "/images/math.webp",
+    name: "Rossmann Store",
+    madeWith: "Python -Next.js",
+    description: "A web application for predicting Rossmann store sales using XGBoost time series analysis.",
+    image: "/images/rossmann.webp",
     imagePosition: "center 10%",
     frame: "none",
     links: [
