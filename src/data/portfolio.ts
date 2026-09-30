@@ -50,7 +50,7 @@ export const projects: Project[] = [
   {
     name: "Beyond Netherite Modpack",
     madeWith: "Java - Fabric",
-    description: "A custom modpack that includes tools and armor made of obsidian and two new mobs",
+    description: "A custom modpack that includes tools and armor made of obsidian and two new mobs.",
     image: "/images/beyond_netherite.webp",
     imagePosition: "center",
     frame: "none",
@@ -61,13 +61,14 @@ export const projects: Project[] = [
   },
   {
     name: "Rossmann Store",
-    madeWith: "Python -Next.js",
+    madeWith: "Python - Next.js",
     description: "A web application for predicting Rossmann store sales using XGBoost time series analysis.",
     image: "/images/rossmann.webp",
     imagePosition: "center 10%",
     frame: "none",
     links: [
-      { label: "Code", href: "https://github.com/lndydx/Manim_Math_Visualization" },
+      { label: "Live site", href: "https://rossmann-store.vercel.app/" },
+      { label: "Code", href: "https://github.com/lndydx/RossmannStoreProject" }
     ],
   },
 ];
